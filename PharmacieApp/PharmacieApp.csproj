@@ -55,19 +55,46 @@
     <Compile Include="Connection.Designer.cs">
       <DependentUpon>Connection.cs</DependentUpon>
     </Compile>
+    <Compile Include="Employers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employers.Designer.cs">
+      <DependentUpon>Employers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fabricants.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fabricants.Designer.cs">
+      <DependentUpon>Fabricants.cs</DependentUpon>
+    </Compile>
     <Compile Include="FenetreDeProgression.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FenetreDeProgression.Designer.cs">
       <DependentUpon>FenetreDeProgression.cs</DependentUpon>
     </Compile>
+    <Compile Include="Medicaments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Medicaments.Designer.cs">
+      <DependentUpon>Medicaments.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Connection.resx">
       <DependentUpon>Connection.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Employers.resx">
+      <DependentUpon>Employers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fabricants.resx">
+      <DependentUpon>Fabricants.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FenetreDeProgression.resx">
       <DependentUpon>FenetreDeProgression.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Medicaments.resx">
+      <DependentUpon>Medicaments.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
