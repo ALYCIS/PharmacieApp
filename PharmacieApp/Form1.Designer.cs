@@ -65,11 +65,11 @@ namespace PharmacieApp
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("MS PGothic", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("MS PGothic", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(223, 372);
+            this.label1.Location = new System.Drawing.Point(288, 393);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(337, 38);
+            this.label1.Size = new System.Drawing.Size(169, 20);
             this.label1.TabIndex = 2;
             this.label1.Text = "Developper par Aly";
             // 
