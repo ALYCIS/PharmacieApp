@@ -363,9 +363,9 @@ namespace PharmacieApp
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(664, 41);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(195, 32);
+            this.label1.Size = new System.Drawing.Size(175, 32);
             this.label1.TabIndex = 51;
-            this.label1.Text = "FABRICANTS";
+            this.label1.Text = "EMPLOYES";
             // 
             // labelPharmacie
             // 
