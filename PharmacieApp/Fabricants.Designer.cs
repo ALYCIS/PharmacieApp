@@ -29,16 +29,16 @@ namespace PharmacieApp
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Fabricants));
             this.ListeFabricantDataGridViewF = new Guna.UI2.WinForms.Guna2DataGridView();
             this.label5 = new System.Windows.Forms.Label();
-            this.buttonReinitF = new System.Windows.Forms.Button();
-            this.buttonSupprimerF = new System.Windows.Forms.Button();
-            this.buttonModifierF = new System.Windows.Forms.Button();
-            this.buttonAjouterF = new System.Windows.Forms.Button();
+            this.ButtonReinitF = new System.Windows.Forms.Button();
+            this.ButtonSupprimerF = new System.Windows.Forms.Button();
+            this.ButtonModifierF = new System.Windows.Forms.Button();
+            this.ButtonAjouterF = new System.Windows.Forms.Button();
             this.guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.DescriptionTextBoxF = new Guna.UI2.WinForms.Guna2TextBox();
@@ -65,30 +65,30 @@ namespace PharmacieApp
             // 
             // ListeFabricantDataGridViewF
             // 
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
-            this.ListeFabricantDataGridViewF.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            this.ListeFabricantDataGridViewF.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.ListeFabricantDataGridViewF.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.ListeFabricantDataGridViewF.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ListeFabricantDataGridViewF.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ListeFabricantDataGridViewF.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.ListeFabricantDataGridViewF.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ListeFabricantDataGridViewF.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ListeFabricantDataGridViewF.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.ListeFabricantDataGridViewF.ColumnHeadersHeight = 25;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.ListeFabricantDataGridViewF.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.ListeFabricantDataGridViewF.DefaultCellStyle = dataGridViewCellStyle6;
             this.ListeFabricantDataGridViewF.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
             this.ListeFabricantDataGridViewF.EnableHeadersVisualStyles = false;
             this.ListeFabricantDataGridViewF.GridColor = System.Drawing.Color.Black;
@@ -134,64 +134,65 @@ namespace PharmacieApp
             this.label5.TabIndex = 46;
             this.label5.Text = "Liste des fabricants";
             // 
-            // buttonReinitF
+            // ButtonReinitF
             // 
-            this.buttonReinitF.BackColor = System.Drawing.Color.Crimson;
-            this.buttonReinitF.FlatAppearance.BorderSize = 0;
-            this.buttonReinitF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonReinitF.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonReinitF.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonReinitF.Location = new System.Drawing.Point(817, 201);
-            this.buttonReinitF.Name = "buttonReinitF";
-            this.buttonReinitF.Size = new System.Drawing.Size(139, 43);
-            this.buttonReinitF.TabIndex = 45;
-            this.buttonReinitF.Text = "Réinitialiser";
-            this.buttonReinitF.UseVisualStyleBackColor = false;
-            this.buttonReinitF.Click += new System.EventHandler(this.buttonReinitF_Click);
+            this.ButtonReinitF.BackColor = System.Drawing.Color.Crimson;
+            this.ButtonReinitF.FlatAppearance.BorderSize = 0;
+            this.ButtonReinitF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ButtonReinitF.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonReinitF.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ButtonReinitF.Location = new System.Drawing.Point(817, 201);
+            this.ButtonReinitF.Name = "ButtonReinitF";
+            this.ButtonReinitF.Size = new System.Drawing.Size(139, 43);
+            this.ButtonReinitF.TabIndex = 45;
+            this.ButtonReinitF.Text = "Réinitialiser";
+            this.ButtonReinitF.UseVisualStyleBackColor = false;
+            this.ButtonReinitF.Click += new System.EventHandler(this.ButtonReinitF_Click);
             // 
-            // buttonSupprimerF
+            // ButtonSupprimerF
             // 
-            this.buttonSupprimerF.BackColor = System.Drawing.Color.Crimson;
-            this.buttonSupprimerF.FlatAppearance.BorderSize = 0;
-            this.buttonSupprimerF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonSupprimerF.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSupprimerF.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonSupprimerF.Location = new System.Drawing.Point(647, 202);
-            this.buttonSupprimerF.Name = "buttonSupprimerF";
-            this.buttonSupprimerF.Size = new System.Drawing.Size(126, 43);
-            this.buttonSupprimerF.TabIndex = 44;
-            this.buttonSupprimerF.Text = "Supprimer";
-            this.buttonSupprimerF.UseVisualStyleBackColor = false;
+            this.ButtonSupprimerF.BackColor = System.Drawing.Color.Crimson;
+            this.ButtonSupprimerF.FlatAppearance.BorderSize = 0;
+            this.ButtonSupprimerF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ButtonSupprimerF.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonSupprimerF.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ButtonSupprimerF.Location = new System.Drawing.Point(647, 202);
+            this.ButtonSupprimerF.Name = "ButtonSupprimerF";
+            this.ButtonSupprimerF.Size = new System.Drawing.Size(126, 43);
+            this.ButtonSupprimerF.TabIndex = 44;
+            this.ButtonSupprimerF.Text = "Supprimer";
+            this.ButtonSupprimerF.UseVisualStyleBackColor = false;
+            this.ButtonSupprimerF.Click += new System.EventHandler(this.ButtonSupprimerF_Click);
             // 
-            // buttonModifierF
+            // ButtonModifierF
             // 
-            this.buttonModifierF.BackColor = System.Drawing.Color.Crimson;
-            this.buttonModifierF.FlatAppearance.BorderSize = 0;
-            this.buttonModifierF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonModifierF.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonModifierF.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonModifierF.Location = new System.Drawing.Point(487, 202);
-            this.buttonModifierF.Name = "buttonModifierF";
-            this.buttonModifierF.Size = new System.Drawing.Size(118, 43);
-            this.buttonModifierF.TabIndex = 43;
-            this.buttonModifierF.Text = "Modifier";
-            this.buttonModifierF.UseVisualStyleBackColor = false;
+            this.ButtonModifierF.BackColor = System.Drawing.Color.Crimson;
+            this.ButtonModifierF.FlatAppearance.BorderSize = 0;
+            this.ButtonModifierF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ButtonModifierF.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonModifierF.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ButtonModifierF.Location = new System.Drawing.Point(487, 202);
+            this.ButtonModifierF.Name = "ButtonModifierF";
+            this.ButtonModifierF.Size = new System.Drawing.Size(118, 43);
+            this.ButtonModifierF.TabIndex = 43;
+            this.ButtonModifierF.Text = "Modifier";
+            this.ButtonModifierF.UseVisualStyleBackColor = false;
+            this.ButtonModifierF.Click += new System.EventHandler(this.ButtonModifierF_Click);
             // 
-            // buttonAjouterF
+            // ButtonAjouterF
             // 
-            this.buttonAjouterF.BackColor = System.Drawing.Color.Crimson;
-            this.buttonAjouterF.FlatAppearance.BorderSize = 0;
-            this.buttonAjouterF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonAjouterF.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAjouterF.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonAjouterF.Location = new System.Drawing.Point(354, 201);
-            this.buttonAjouterF.Name = "buttonAjouterF";
-            this.buttonAjouterF.Size = new System.Drawing.Size(95, 43);
-            this.buttonAjouterF.TabIndex = 42;
-            this.buttonAjouterF.Text = "Ajouter";
-            this.buttonAjouterF.UseVisualStyleBackColor = false;
-            this.buttonAjouterF.Click += new System.EventHandler(this.buttonAjouterF_Click);
-            this.buttonAjouterF.MouseHover += new System.EventHandler(this.buttonAjouterF_MouseHover);
+            this.ButtonAjouterF.BackColor = System.Drawing.Color.Crimson;
+            this.ButtonAjouterF.FlatAppearance.BorderSize = 0;
+            this.ButtonAjouterF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ButtonAjouterF.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonAjouterF.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ButtonAjouterF.Location = new System.Drawing.Point(354, 201);
+            this.ButtonAjouterF.Name = "ButtonAjouterF";
+            this.ButtonAjouterF.Size = new System.Drawing.Size(95, 43);
+            this.ButtonAjouterF.TabIndex = 42;
+            this.ButtonAjouterF.Text = "Ajouter";
+            this.ButtonAjouterF.UseVisualStyleBackColor = false;
+            this.ButtonAjouterF.Click += new System.EventHandler(this.ButtonAjouterF_Click);
             // 
             // guna2TextBox6
             // 
@@ -409,7 +410,6 @@ namespace PharmacieApp
             this.FactureslabelF.Size = new System.Drawing.Size(137, 26);
             this.FactureslabelF.TabIndex = 6;
             this.FactureslabelF.Text = "FACTURES";
-            this.FactureslabelF.Click += new System.EventHandler(this.FactureslabelF_Click);
             // 
             // ImageFactureCheckBoxF
             // 
@@ -441,7 +441,7 @@ namespace PharmacieApp
             // ImageMedicamentCheckBoxF
             // 
             this.ImageMedicamentCheckBoxF.BackColor = System.Drawing.Color.Transparent;
-            this.ImageMedicamentCheckBoxF.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            this.ImageMedicamentCheckBoxF.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
             this.ImageMedicamentCheckBoxF.CheckedState.ImageSize = new System.Drawing.Size(150, 150);
             this.ImageMedicamentCheckBoxF.Image = ((System.Drawing.Image)(resources.GetObject("ImageMedicamentCheckBoxF.Image")));
             this.ImageMedicamentCheckBoxF.ImageOffset = new System.Drawing.Point(0, 0);
@@ -534,10 +534,10 @@ namespace PharmacieApp
             this.Controls.Add(this.TelTextBoxF);
             this.Controls.Add(this.ListeFabricantDataGridViewF);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.buttonReinitF);
-            this.Controls.Add(this.buttonSupprimerF);
-            this.Controls.Add(this.buttonModifierF);
-            this.Controls.Add(this.buttonAjouterF);
+            this.Controls.Add(this.ButtonReinitF);
+            this.Controls.Add(this.ButtonSupprimerF);
+            this.Controls.Add(this.ButtonModifierF);
+            this.Controls.Add(this.ButtonAjouterF);
             this.Controls.Add(this.guna2TextBox6);
             this.Controls.Add(this.guna2TextBox4);
             this.Controls.Add(this.DescriptionTextBoxF);
@@ -565,10 +565,10 @@ namespace PharmacieApp
 
         private Guna.UI2.WinForms.Guna2DataGridView ListeFabricantDataGridViewF;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button buttonReinitF;
-        private System.Windows.Forms.Button buttonSupprimerF;
-        private System.Windows.Forms.Button buttonModifierF;
-        private System.Windows.Forms.Button buttonAjouterF;
+        private System.Windows.Forms.Button ButtonReinitF;
+        private System.Windows.Forms.Button ButtonSupprimerF;
+        private System.Windows.Forms.Button ButtonModifierF;
+        private System.Windows.Forms.Button ButtonAjouterF;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
         private Guna.UI2.WinForms.Guna2TextBox DescriptionTextBoxF;

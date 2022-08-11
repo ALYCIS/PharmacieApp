@@ -13,27 +13,12 @@ namespace PharmacieApp
 {
     public partial class Employers : Form
     {
+        private readonly SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\CISSE\Documents\MaPharmacie.mdf;Integrated Security=True;Connect Timeout=30");
         public Employers()
         {
             InitializeComponent();
         }
-
-        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\CISSE\Documents\MaPharmacie.mdf;Integrated Security=True;Connect Timeout=30");
-        private void guna2TextBoxNomUtilisateur_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2ImageCheckBox5_CheckedChanged(object sender, EventArgs e)
-        {
-            Close();
-        }
-
+        
         private void AjouterbuttonE_MouseHover(object sender, EventArgs e)
         {
             AjouterbuttonE.BackColor = Color.Blue;
@@ -42,6 +27,16 @@ namespace PharmacieApp
         private void AjouterbuttonE_MouseLeave(object sender, EventArgs e)
         {
             AjouterbuttonE.BackColor = Color.Crimson;
+        }
+
+        private void ImageCloseCheckBoxE_CheckedChanged(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void AjouterbuttonE_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

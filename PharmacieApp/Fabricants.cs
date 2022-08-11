@@ -13,51 +13,18 @@ namespace PharmacieApp
 {
     public partial class Fabricants : Form
     {
-        private SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\CISSE\Documents\MaPharmacie.mdf;Integrated Security=True;Connect Timeout=30");
-        private int  Cle = 0;
+        private readonly SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\CISSE\Documents\MaPharmacie.mdf;Integrated Security=True;Connect Timeout=30");
+        private int Cle = 0;
         public Fabricants()
         {
             InitializeComponent();
             AfficherBD();
         }
-        private void buttonAjouterF_Click(object sender, EventArgs e)
-        {
-            if(NomTextBoxF.Text == "" || AdresseTextBox.Text =="" || DescriptionTextBoxF.Text=="" || TelTextBoxF.Text =="")
-            {
-                MessageBox.Show("Completez les informations s'il vous plaît!");
-            }
-            else
-            {
-                try
-                {
-                    Con.Open();
-                    string actionReq = '\''+NomTextBoxF.Text+ '\''+ ',' + '\''+AdresseTextBox.Text + '\''+',' + '\''+DescriptionTextBoxF.Text+ '\''+',' + '\''+ TelTextBoxF.Text+ '\'';
-                    /*string Req = "insert into FabricantTbl values('" + NomTextBox.Text +
-                        "','" + AdresseTextBox.Text + "','" + DescriptionTextBoxF.Text + "','" + TelTextBoxF.Text + "')";*/
-                    string Req = $"insert into FabricantTbl values({actionReq})";
-                    MessageBox.Show(Req);
-                    SqlCommand cmd = new SqlCommand(Req, Con);
-                    cmd.ExecuteNonQuery();
-                    MessageBox.Show("Fabricant Ajouté avec Succès!");
-                    Con.Close();
-                    AfficherBD();
-                    Reinitialisation();
-                }
-                catch (Exception Ex)
-                {
-                    MessageBox.Show(Ex.Message);
-                }       
-            }
-        }
+
 
         private void FermerCheckBoxF_CheckedChanged(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void buttonReinitF_Click(object s, EventArgs e)
-        {
-            Reinitialisation();
         }
 
         private void Reinitialisation()
@@ -74,7 +41,7 @@ namespace PharmacieApp
             Con.Open();
             string Req = $"select * from FabricantTbl";
             SqlDataAdapter sda = new SqlDataAdapter(Req, Con);
-            SqlCommandBuilder build = new SqlCommandBuilder(sda);
+            /*SqlCommandBuilder build = new SqlCommandBuilder(sda);*/
             var ds = new DataSet();
             sda.Fill(ds);
             ListeFabricantDataGridViewF.DataSource = ds.Tables[0];
@@ -92,17 +59,6 @@ namespace PharmacieApp
             else
                 Cle = Convert.ToInt32(ListeFabricantDataGridViewF.SelectedRows[0].Cells[0].Value.ToString());
         }
-
-        private void buttonSupprimerF_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonModifierF_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void MedicamentslabelF_Click(object sender, EventArgs e)
         {
             Medicaments Med = new Medicaments();
@@ -117,14 +73,99 @@ namespace PharmacieApp
             this.Hide();
         }
 
-        private void FactureslabelF_Click(object sender, EventArgs e)
+        private void ButtonAjouterF_Click(object sender, EventArgs e)
         {
-            
+            if (NomTextBoxF.Text == "" || AdresseTextBox.Text == "" || DescriptionTextBoxF.Text == "" || TelTextBoxF.Text == "")
+            {
+                MessageBox.Show("Completez les informations s'il vous plaît!");
+            }
+            else
+            {
+                try
+                {
+                    Con.Open();
+                    string actionReq = '\'' + NomTextBoxF.Text + '\'' + ',' + '\'' + AdresseTextBox.Text + '\'' + ',' + '\'' + DescriptionTextBoxF.Text + '\'' + ',' + '\'' + TelTextBoxF.Text + '\'';
+                    /*string Req = "insert into FabricantTbl values('" + NomTextBox.Text +
+                        "','" + AdresseTextBox.Text + "','" + DescriptionTextBoxF.Text + "','" + TelTextBoxF.Text + "')";*/
+                    string Req = $"insert into FabricantTbl values({actionReq})";
+                    MessageBox.Show(Req);
+                    SqlCommand cmd = new SqlCommand(Req, Con);
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Fabricant Ajouté avec Succès!");
+                    Con.Close();
+                    AfficherBD();
+                    Reinitialisation();
+                }
+                catch (Exception Ex)
+                {
+                    MessageBox.Show(Ex.Message);
+                }
+            }
         }
 
-        private void buttonAjouterF_MouseHover(object sender, EventArgs e)
+        private void ButtonReinitF_Click(object sender, EventArgs e)
         {
-            buttonAjouterF.BackColor = Color.Blue;
+            Reinitialisation();
+        }
+
+        private void ButtonModifierF_Click(object sender, EventArgs e)
+        {
+            if (NomTextBoxF.Text == "" || AdresseTextBox.Text == "" || DescriptionTextBoxF.Text == "" || TelTextBoxF.Text == "")
+            {
+                MessageBox.Show("Information(s) Imcomplète(s)!","WARNING",MessageBoxButtons.RetryCancel,MessageBoxIcon.Warning);
+            }
+            else
+            {
+                try
+                {
+                    Con.Open();
+                    string Req = $"UPDATE FabricantTbl " +
+                        $"SET FabNom= '{NomTextBoxF.Text}'," +
+                        $"FabAd ='{AdresseTextBox.Text}'," +
+                        $"FabDescrp= '{DescriptionTextBoxF.Text}'" +
+                        $"WHERE FabNum={Cle}";
+                    MessageBox.Show(Req);
+                    SqlCommand cmd = new SqlCommand(Req, Con);
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Fabricant Modifié avec Succès!");
+                    Con.Close();
+                    AfficherBD();
+                    Reinitialisation();
+                }
+                catch (Exception Ex)
+                {
+                    MessageBox.Show(Ex.Message);
+                }
+            }
+        }
+
+        private void ButtonSupprimerF_Click(object sender, EventArgs e)
+        {
+            if (Cle == 0)
+            {
+                /* MessageBox.Show("Selectionner une ligne!", "Supprimer",);*/
+                MessageBox.Show("Selectionner une ligne!", "ATTENTION!",MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                try
+                {
+                    Con.Open();
+                    string Req = $"DELETE FROM FabricantTbl " +
+                        $"WHERE FabNum={Cle}";
+                    MessageBox.Show(Req);
+                    SqlCommand cmd = new SqlCommand(Req, Con);
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Fabricant Supprimé avec Succès!");
+                    Con.Close();
+                    AfficherBD();
+                    Reinitialisation();
+                }
+                catch (Exception Ex)
+                {
+                    MessageBox.Show(Ex.Message);
+                }
+            }
         }
     }
 }

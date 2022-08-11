@@ -17,17 +17,7 @@ namespace PharmacieApp
             InitializeComponent();
         }
 
-        private void guna2TextBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2TextBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
+        private void LienVendeurlabelC_Click(object sender, EventArgs e)
         {
             Employers E = new Employers();
             E.Show();

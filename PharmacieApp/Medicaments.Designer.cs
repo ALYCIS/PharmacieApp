@@ -30,107 +30,112 @@ namespace PharmacieApp
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Medicaments));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.labelPharmacie = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.guna2ImageCheckBox1 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.ImageButtonPharmacieM = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.LogoutImageCheckBoxM = new Guna.UI2.WinForms.Guna2ImageCheckBox();
+            this.LabelStatM = new System.Windows.Forms.Label();
+            this.ImageCheckBoxStatM = new Guna.UI2.WinForms.Guna2ImageCheckBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.guna2ImageCheckBox2 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.guna2ImageCheckBox3 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
-            this.guna2ImageCheckBox4 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
-            this.guna2ImageCheckBox5 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
-            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2TextBoxNomUtilisateur = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox5 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.guna2TextBox7 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.ImageCheckBoxFacturesM = new Guna.UI2.WinForms.Guna2ImageCheckBox();
+            this.LabelFabricantM = new System.Windows.Forms.Label();
+            this.ImageCheckBoxCompagnieM = new Guna.UI2.WinForms.Guna2ImageCheckBox();
+            this.LabelPharmacieM = new System.Windows.Forms.Label();
+            this.LableMedicamentsM = new System.Windows.Forms.Label();
+            this.ImageCloseCheckBoxM = new Guna.UI2.WinForms.Guna2ImageCheckBox();
+            this.TextBoxNomUtilisateurM = new Guna.UI2.WinForms.Guna2TextBox();
+            this.TextBoxMedicamentNameM = new Guna.UI2.WinForms.Guna2TextBox();
+            this.TextBoxLabelPrixM = new Guna.UI2.WinForms.Guna2TextBox();
+            this.TextBoxPrixM = new Guna.UI2.WinForms.Guna2TextBox();
+            this.QtTextBoxM = new Guna.UI2.WinForms.Guna2TextBox();
+            this.QuantiteTextBoxM = new Guna.UI2.WinForms.Guna2TextBox();
+            this.FabricantTextBoxM = new Guna.UI2.WinForms.Guna2TextBox();
+            this.FabricantComboBoxM = new System.Windows.Forms.ComboBox();
+            this.TextExpirationTextBoxM = new Guna.UI2.WinForms.Guna2TextBox();
+            this.DateTimePickerM = new System.Windows.Forms.DateTimePicker();
+            this.ButtonAjouterM = new System.Windows.Forms.Button();
+            this.ButtonModifierM = new System.Windows.Forms.Button();
+            this.ButtonSupprimerM = new System.Windows.Forms.Button();
+            this.ButtonReinitialiser = new System.Windows.Forms.Button();
+            this.LabelStockM = new System.Windows.Forms.Label();
+            this.DataGridViewStockM = new Guna.UI2.WinForms.Guna2DataGridView();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridViewStockM)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Crimson;
-            this.panel1.Controls.Add(this.guna2ImageButton1);
-            this.panel1.Controls.Add(this.guna2ImageCheckBox4);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.guna2ImageCheckBox3);
+            this.panel1.Controls.Add(this.ImageButtonPharmacieM);
+            this.panel1.Controls.Add(this.LogoutImageCheckBoxM);
+            this.panel1.Controls.Add(this.LabelStatM);
+            this.panel1.Controls.Add(this.ImageCheckBoxStatM);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.guna2ImageCheckBox2);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.guna2ImageCheckBox1);
+            this.panel1.Controls.Add(this.ImageCheckBoxFacturesM);
+            this.panel1.Controls.Add(this.LabelFabricantM);
+            this.panel1.Controls.Add(this.ImageCheckBoxCompagnieM);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(319, 543);
             this.panel1.TabIndex = 0;
             // 
-            // labelPharmacie
+            // ImageButtonPharmacieM
             // 
-            this.labelPharmacie.AutoSize = true;
-            this.labelPharmacie.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPharmacie.ForeColor = System.Drawing.Color.Black;
-            this.labelPharmacie.Location = new System.Drawing.Point(638, 9);
-            this.labelPharmacie.Name = "labelPharmacie";
-            this.labelPharmacie.Size = new System.Drawing.Size(278, 32);
-            this.labelPharmacie.TabIndex = 2;
-            this.labelPharmacie.Text = "PHARMACIE CISSE";
+            this.ImageButtonPharmacieM.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.ImageButtonPharmacieM.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.ImageButtonPharmacieM.Image = ((System.Drawing.Image)(resources.GetObject("ImageButtonPharmacieM.Image")));
+            this.ImageButtonPharmacieM.ImageOffset = new System.Drawing.Point(0, 0);
+            this.ImageButtonPharmacieM.ImageRotate = 0F;
+            this.ImageButtonPharmacieM.ImageSize = new System.Drawing.Size(100, 100);
+            this.ImageButtonPharmacieM.Location = new System.Drawing.Point(57, 12);
+            this.ImageButtonPharmacieM.Name = "ImageButtonPharmacieM";
+            this.ImageButtonPharmacieM.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.ImageButtonPharmacieM.Size = new System.Drawing.Size(185, 140);
+            this.ImageButtonPharmacieM.TabIndex = 10;
             // 
-            // label1
+            // LogoutImageCheckBoxM
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(660, 41);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(229, 32);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "MEDICAMENTS";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.LogoutImageCheckBoxM.BackColor = System.Drawing.Color.Transparent;
+            this.LogoutImageCheckBoxM.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            this.LogoutImageCheckBoxM.CheckedState.ImageSize = new System.Drawing.Size(150, 150);
+            this.LogoutImageCheckBoxM.Image = ((System.Drawing.Image)(resources.GetObject("LogoutImageCheckBoxM.Image")));
+            this.LogoutImageCheckBoxM.ImageOffset = new System.Drawing.Point(0, 0);
+            this.LogoutImageCheckBoxM.ImageRotate = 0F;
+            this.LogoutImageCheckBoxM.ImageSize = new System.Drawing.Size(50, 50);
+            this.LogoutImageCheckBoxM.IndicateFocus = true;
+            this.LogoutImageCheckBoxM.Location = new System.Drawing.Point(149, 464);
+            this.LogoutImageCheckBoxM.Name = "LogoutImageCheckBoxM";
+            this.LogoutImageCheckBoxM.Size = new System.Drawing.Size(59, 63);
+            this.LogoutImageCheckBoxM.TabIndex = 9;
             // 
-            // guna2ImageCheckBox1
+            // LabelStatM
             // 
-            this.guna2ImageCheckBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ImageCheckBox1.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
-            this.guna2ImageCheckBox1.CheckedState.ImageSize = new System.Drawing.Size(150, 150);
-            this.guna2ImageCheckBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageCheckBox1.Image")));
-            this.guna2ImageCheckBox1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageCheckBox1.ImageRotate = 0F;
-            this.guna2ImageCheckBox1.ImageSize = new System.Drawing.Size(50, 50);
-            this.guna2ImageCheckBox1.IndicateFocus = true;
-            this.guna2ImageCheckBox1.Location = new System.Drawing.Point(55, 184);
-            this.guna2ImageCheckBox1.Name = "guna2ImageCheckBox1";
-            this.guna2ImageCheckBox1.Size = new System.Drawing.Size(59, 68);
-            this.guna2ImageCheckBox1.TabIndex = 0;
+            this.LabelStatM.AutoSize = true;
+            this.LabelStatM.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelStatM.ForeColor = System.Drawing.Color.White;
+            this.LabelStatM.Location = new System.Drawing.Point(128, 350);
+            this.LabelStatM.Name = "LabelStatM";
+            this.LabelStatM.Size = new System.Drawing.Size(147, 26);
+            this.LabelStatM.TabIndex = 8;
+            this.LabelStatM.Text = "DASHBORD";
             // 
-            // label2
+            // ImageCheckBoxStatM
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(128, 211);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(163, 26);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "FABRICANTS";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.ImageCheckBoxStatM.BackColor = System.Drawing.Color.Transparent;
+            this.ImageCheckBoxStatM.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            this.ImageCheckBoxStatM.CheckedState.ImageSize = new System.Drawing.Size(150, 150);
+            this.ImageCheckBoxStatM.Image = ((System.Drawing.Image)(resources.GetObject("ImageCheckBoxStatM.Image")));
+            this.ImageCheckBoxStatM.ImageOffset = new System.Drawing.Point(0, 0);
+            this.ImageCheckBoxStatM.ImageRotate = 0F;
+            this.ImageCheckBoxStatM.ImageSize = new System.Drawing.Size(50, 50);
+            this.ImageCheckBoxStatM.IndicateFocus = true;
+            this.ImageCheckBoxStatM.Location = new System.Drawing.Point(57, 331);
+            this.ImageCheckBoxStatM.Name = "ImageCheckBoxStatM";
+            this.ImageCheckBoxStatM.Size = new System.Drawing.Size(57, 62);
+            this.ImageCheckBoxStatM.TabIndex = 7;
             // 
             // label3
             // 
@@ -143,434 +148,423 @@ namespace PharmacieApp
             this.label3.TabIndex = 6;
             this.label3.Text = "FACTURES";
             // 
-            // guna2ImageCheckBox2
+            // ImageCheckBoxFacturesM
             // 
-            this.guna2ImageCheckBox2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ImageCheckBox2.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
-            this.guna2ImageCheckBox2.CheckedState.ImageSize = new System.Drawing.Size(150, 150);
-            this.guna2ImageCheckBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageCheckBox2.Image")));
-            this.guna2ImageCheckBox2.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageCheckBox2.ImageRotate = 0F;
-            this.guna2ImageCheckBox2.ImageSize = new System.Drawing.Size(50, 50);
-            this.guna2ImageCheckBox2.IndicateFocus = true;
-            this.guna2ImageCheckBox2.Location = new System.Drawing.Point(55, 258);
-            this.guna2ImageCheckBox2.Name = "guna2ImageCheckBox2";
-            this.guna2ImageCheckBox2.Size = new System.Drawing.Size(59, 67);
-            this.guna2ImageCheckBox2.TabIndex = 5;
+            this.ImageCheckBoxFacturesM.BackColor = System.Drawing.Color.Transparent;
+            this.ImageCheckBoxFacturesM.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
+            this.ImageCheckBoxFacturesM.CheckedState.ImageSize = new System.Drawing.Size(150, 150);
+            this.ImageCheckBoxFacturesM.Image = ((System.Drawing.Image)(resources.GetObject("ImageCheckBoxFacturesM.Image")));
+            this.ImageCheckBoxFacturesM.ImageOffset = new System.Drawing.Point(0, 0);
+            this.ImageCheckBoxFacturesM.ImageRotate = 0F;
+            this.ImageCheckBoxFacturesM.ImageSize = new System.Drawing.Size(50, 50);
+            this.ImageCheckBoxFacturesM.IndicateFocus = true;
+            this.ImageCheckBoxFacturesM.Location = new System.Drawing.Point(55, 258);
+            this.ImageCheckBoxFacturesM.Name = "ImageCheckBoxFacturesM";
+            this.ImageCheckBoxFacturesM.Size = new System.Drawing.Size(59, 67);
+            this.ImageCheckBoxFacturesM.TabIndex = 5;
             // 
-            // label4
+            // LabelFabricantM
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(128, 350);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(147, 26);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "DASHBORD";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.LabelFabricantM.AutoSize = true;
+            this.LabelFabricantM.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelFabricantM.ForeColor = System.Drawing.Color.White;
+            this.LabelFabricantM.Location = new System.Drawing.Point(128, 211);
+            this.LabelFabricantM.Name = "LabelFabricantM";
+            this.LabelFabricantM.Size = new System.Drawing.Size(163, 26);
+            this.LabelFabricantM.TabIndex = 4;
+            this.LabelFabricantM.Text = "FABRICANTS";
             // 
-            // guna2ImageCheckBox3
+            // ImageCheckBoxCompagnieM
             // 
-            this.guna2ImageCheckBox3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ImageCheckBox3.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
-            this.guna2ImageCheckBox3.CheckedState.ImageSize = new System.Drawing.Size(150, 150);
-            this.guna2ImageCheckBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageCheckBox3.Image")));
-            this.guna2ImageCheckBox3.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageCheckBox3.ImageRotate = 0F;
-            this.guna2ImageCheckBox3.ImageSize = new System.Drawing.Size(50, 50);
-            this.guna2ImageCheckBox3.IndicateFocus = true;
-            this.guna2ImageCheckBox3.Location = new System.Drawing.Point(57, 331);
-            this.guna2ImageCheckBox3.Name = "guna2ImageCheckBox3";
-            this.guna2ImageCheckBox3.Size = new System.Drawing.Size(57, 62);
-            this.guna2ImageCheckBox3.TabIndex = 7;
-            this.guna2ImageCheckBox3.CheckedChanged += new System.EventHandler(this.guna2ImageCheckBox3_CheckedChanged);
+            this.ImageCheckBoxCompagnieM.BackColor = System.Drawing.Color.Transparent;
+            this.ImageCheckBoxCompagnieM.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
+            this.ImageCheckBoxCompagnieM.CheckedState.ImageSize = new System.Drawing.Size(150, 150);
+            this.ImageCheckBoxCompagnieM.Image = ((System.Drawing.Image)(resources.GetObject("ImageCheckBoxCompagnieM.Image")));
+            this.ImageCheckBoxCompagnieM.ImageOffset = new System.Drawing.Point(0, 0);
+            this.ImageCheckBoxCompagnieM.ImageRotate = 0F;
+            this.ImageCheckBoxCompagnieM.ImageSize = new System.Drawing.Size(50, 50);
+            this.ImageCheckBoxCompagnieM.IndicateFocus = true;
+            this.ImageCheckBoxCompagnieM.Location = new System.Drawing.Point(55, 184);
+            this.ImageCheckBoxCompagnieM.Name = "ImageCheckBoxCompagnieM";
+            this.ImageCheckBoxCompagnieM.Size = new System.Drawing.Size(59, 68);
+            this.ImageCheckBoxCompagnieM.TabIndex = 0;
             // 
-            // guna2ImageCheckBox4
+            // LabelPharmacieM
             // 
-            this.guna2ImageCheckBox4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ImageCheckBox4.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
-            this.guna2ImageCheckBox4.CheckedState.ImageSize = new System.Drawing.Size(150, 150);
-            this.guna2ImageCheckBox4.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageCheckBox4.Image")));
-            this.guna2ImageCheckBox4.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageCheckBox4.ImageRotate = 0F;
-            this.guna2ImageCheckBox4.ImageSize = new System.Drawing.Size(50, 50);
-            this.guna2ImageCheckBox4.IndicateFocus = true;
-            this.guna2ImageCheckBox4.Location = new System.Drawing.Point(149, 464);
-            this.guna2ImageCheckBox4.Name = "guna2ImageCheckBox4";
-            this.guna2ImageCheckBox4.Size = new System.Drawing.Size(59, 63);
-            this.guna2ImageCheckBox4.TabIndex = 9;
+            this.LabelPharmacieM.AutoSize = true;
+            this.LabelPharmacieM.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelPharmacieM.ForeColor = System.Drawing.Color.Black;
+            this.LabelPharmacieM.Location = new System.Drawing.Point(638, 9);
+            this.LabelPharmacieM.Name = "LabelPharmacieM";
+            this.LabelPharmacieM.Size = new System.Drawing.Size(278, 32);
+            this.LabelPharmacieM.TabIndex = 2;
+            this.LabelPharmacieM.Text = "PHARMACIE CISSE";
             // 
-            // guna2ImageCheckBox5
+            // LableMedicamentsM
             // 
-            this.guna2ImageCheckBox5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ImageCheckBox5.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
-            this.guna2ImageCheckBox5.CheckedState.ImageSize = new System.Drawing.Size(150, 150);
-            this.guna2ImageCheckBox5.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageCheckBox5.Image")));
-            this.guna2ImageCheckBox5.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageCheckBox5.ImageRotate = 0F;
-            this.guna2ImageCheckBox5.ImageSize = new System.Drawing.Size(50, 50);
-            this.guna2ImageCheckBox5.IndicateFocus = true;
-            this.guna2ImageCheckBox5.Location = new System.Drawing.Point(1066, 9);
-            this.guna2ImageCheckBox5.Name = "guna2ImageCheckBox5";
-            this.guna2ImageCheckBox5.Size = new System.Drawing.Size(59, 63);
-            this.guna2ImageCheckBox5.TabIndex = 10;
+            this.LableMedicamentsM.AutoSize = true;
+            this.LableMedicamentsM.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LableMedicamentsM.ForeColor = System.Drawing.Color.Black;
+            this.LableMedicamentsM.Location = new System.Drawing.Point(660, 41);
+            this.LableMedicamentsM.Name = "LableMedicamentsM";
+            this.LableMedicamentsM.Size = new System.Drawing.Size(229, 32);
+            this.LableMedicamentsM.TabIndex = 3;
+            this.LableMedicamentsM.Text = "MEDICAMENTS";
             // 
-            // guna2ImageButton1
+            // ImageCloseCheckBoxM
             // 
-            this.guna2ImageButton1.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton1.Image")));
-            this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton1.ImageRotate = 0F;
-            this.guna2ImageButton1.ImageSize = new System.Drawing.Size(100, 100);
-            this.guna2ImageButton1.Location = new System.Drawing.Point(57, 12);
-            this.guna2ImageButton1.Name = "guna2ImageButton1";
-            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.Size = new System.Drawing.Size(185, 140);
-            this.guna2ImageButton1.TabIndex = 10;
+            this.ImageCloseCheckBoxM.BackColor = System.Drawing.Color.Transparent;
+            this.ImageCloseCheckBoxM.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
+            this.ImageCloseCheckBoxM.CheckedState.ImageSize = new System.Drawing.Size(150, 150);
+            this.ImageCloseCheckBoxM.Image = ((System.Drawing.Image)(resources.GetObject("ImageCloseCheckBoxM.Image")));
+            this.ImageCloseCheckBoxM.ImageOffset = new System.Drawing.Point(0, 0);
+            this.ImageCloseCheckBoxM.ImageRotate = 0F;
+            this.ImageCloseCheckBoxM.ImageSize = new System.Drawing.Size(50, 50);
+            this.ImageCloseCheckBoxM.IndicateFocus = true;
+            this.ImageCloseCheckBoxM.Location = new System.Drawing.Point(1066, 9);
+            this.ImageCloseCheckBoxM.Name = "ImageCloseCheckBoxM";
+            this.ImageCloseCheckBoxM.Size = new System.Drawing.Size(59, 63);
+            this.ImageCloseCheckBoxM.TabIndex = 10;
             // 
-            // guna2TextBoxNomUtilisateur
+            // TextBoxNomUtilisateurM
             // 
-            this.guna2TextBoxNomUtilisateur.BorderThickness = 0;
-            this.guna2TextBoxNomUtilisateur.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBoxNomUtilisateur.DefaultText = "Médicament";
-            this.guna2TextBoxNomUtilisateur.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBoxNomUtilisateur.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBoxNomUtilisateur.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBoxNomUtilisateur.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBoxNomUtilisateur.FillColor = System.Drawing.SystemColors.Control;
-            this.guna2TextBoxNomUtilisateur.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBoxNomUtilisateur.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBoxNomUtilisateur.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBoxNomUtilisateur.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBoxNomUtilisateur.Location = new System.Drawing.Point(339, 83);
-            this.guna2TextBoxNomUtilisateur.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBoxNomUtilisateur.Name = "guna2TextBoxNomUtilisateur";
-            this.guna2TextBoxNomUtilisateur.PasswordChar = '\0';
-            this.guna2TextBoxNomUtilisateur.PlaceholderText = "";
-            this.guna2TextBoxNomUtilisateur.SelectedText = "";
-            this.guna2TextBoxNomUtilisateur.Size = new System.Drawing.Size(192, 32);
-            this.guna2TextBoxNomUtilisateur.TabIndex = 12;
+            this.TextBoxNomUtilisateurM.BorderThickness = 0;
+            this.TextBoxNomUtilisateurM.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.TextBoxNomUtilisateurM.DefaultText = "Médicament";
+            this.TextBoxNomUtilisateurM.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.TextBoxNomUtilisateurM.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TextBoxNomUtilisateurM.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TextBoxNomUtilisateurM.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TextBoxNomUtilisateurM.FillColor = System.Drawing.SystemColors.Control;
+            this.TextBoxNomUtilisateurM.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TextBoxNomUtilisateurM.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextBoxNomUtilisateurM.ForeColor = System.Drawing.Color.Black;
+            this.TextBoxNomUtilisateurM.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TextBoxNomUtilisateurM.Location = new System.Drawing.Point(339, 83);
+            this.TextBoxNomUtilisateurM.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TextBoxNomUtilisateurM.Name = "TextBoxNomUtilisateurM";
+            this.TextBoxNomUtilisateurM.PasswordChar = '\0';
+            this.TextBoxNomUtilisateurM.PlaceholderText = "";
+            this.TextBoxNomUtilisateurM.SelectedText = "";
+            this.TextBoxNomUtilisateurM.Size = new System.Drawing.Size(192, 32);
+            this.TextBoxNomUtilisateurM.TabIndex = 12;
             // 
-            // guna2TextBox1
+            // TextBoxMedicamentNameM
             // 
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(350, 122);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(191, 27);
-            this.guna2TextBox1.TabIndex = 11;
+            this.TextBoxMedicamentNameM.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.TextBoxMedicamentNameM.DefaultText = "";
+            this.TextBoxMedicamentNameM.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.TextBoxMedicamentNameM.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TextBoxMedicamentNameM.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TextBoxMedicamentNameM.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TextBoxMedicamentNameM.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TextBoxMedicamentNameM.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.TextBoxMedicamentNameM.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TextBoxMedicamentNameM.Location = new System.Drawing.Point(350, 122);
+            this.TextBoxMedicamentNameM.Name = "TextBoxMedicamentNameM";
+            this.TextBoxMedicamentNameM.PasswordChar = '\0';
+            this.TextBoxMedicamentNameM.PlaceholderText = "";
+            this.TextBoxMedicamentNameM.SelectedText = "";
+            this.TextBoxMedicamentNameM.Size = new System.Drawing.Size(191, 27);
+            this.TextBoxMedicamentNameM.TabIndex = 11;
             // 
-            // guna2TextBox2
+            // TextBoxLabelPrixM
             // 
-            this.guna2TextBox2.BorderThickness = 0;
-            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox2.DefaultText = "Prix\r\n";
-            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.FillColor = System.Drawing.SystemColors.Control;
-            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox2.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Location = new System.Drawing.Point(561, 83);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox2.Name = "guna2TextBox2";
-            this.guna2TextBox2.PasswordChar = '\0';
-            this.guna2TextBox2.PlaceholderText = "";
-            this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.Size = new System.Drawing.Size(113, 32);
-            this.guna2TextBox2.TabIndex = 14;
+            this.TextBoxLabelPrixM.BorderThickness = 0;
+            this.TextBoxLabelPrixM.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.TextBoxLabelPrixM.DefaultText = "Prix\r\n";
+            this.TextBoxLabelPrixM.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.TextBoxLabelPrixM.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TextBoxLabelPrixM.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TextBoxLabelPrixM.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TextBoxLabelPrixM.FillColor = System.Drawing.SystemColors.Control;
+            this.TextBoxLabelPrixM.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TextBoxLabelPrixM.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextBoxLabelPrixM.ForeColor = System.Drawing.Color.Black;
+            this.TextBoxLabelPrixM.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TextBoxLabelPrixM.Location = new System.Drawing.Point(561, 83);
+            this.TextBoxLabelPrixM.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TextBoxLabelPrixM.Name = "TextBoxLabelPrixM";
+            this.TextBoxLabelPrixM.PasswordChar = '\0';
+            this.TextBoxLabelPrixM.PlaceholderText = "";
+            this.TextBoxLabelPrixM.SelectedText = "";
+            this.TextBoxLabelPrixM.Size = new System.Drawing.Size(113, 32);
+            this.TextBoxLabelPrixM.TabIndex = 14;
             // 
-            // guna2TextBox3
+            // TextBoxPrixM
             // 
-            this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox3.DefaultText = "";
-            this.guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.Location = new System.Drawing.Point(561, 122);
-            this.guna2TextBox3.Name = "guna2TextBox3";
-            this.guna2TextBox3.PasswordChar = '\0';
-            this.guna2TextBox3.PlaceholderText = "";
-            this.guna2TextBox3.SelectedText = "";
-            this.guna2TextBox3.Size = new System.Drawing.Size(142, 27);
-            this.guna2TextBox3.TabIndex = 13;
+            this.TextBoxPrixM.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.TextBoxPrixM.DefaultText = "";
+            this.TextBoxPrixM.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.TextBoxPrixM.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TextBoxPrixM.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TextBoxPrixM.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TextBoxPrixM.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TextBoxPrixM.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.TextBoxPrixM.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TextBoxPrixM.Location = new System.Drawing.Point(561, 122);
+            this.TextBoxPrixM.Name = "TextBoxPrixM";
+            this.TextBoxPrixM.PasswordChar = '\0';
+            this.TextBoxPrixM.PlaceholderText = "";
+            this.TextBoxPrixM.SelectedText = "";
+            this.TextBoxPrixM.Size = new System.Drawing.Size(142, 27);
+            this.TextBoxPrixM.TabIndex = 13;
             // 
-            // guna2TextBox4
+            // QtTextBoxM
             // 
-            this.guna2TextBox4.BorderThickness = 0;
-            this.guna2TextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox4.DefaultText = "Quantité";
-            this.guna2TextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox4.FillColor = System.Drawing.SystemColors.Control;
-            this.guna2TextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox4.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.Location = new System.Drawing.Point(731, 83);
-            this.guna2TextBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox4.Name = "guna2TextBox4";
-            this.guna2TextBox4.PasswordChar = '\0';
-            this.guna2TextBox4.PlaceholderText = "";
-            this.guna2TextBox4.SelectedText = "";
-            this.guna2TextBox4.Size = new System.Drawing.Size(109, 32);
-            this.guna2TextBox4.TabIndex = 16;
+            this.QtTextBoxM.BorderThickness = 0;
+            this.QtTextBoxM.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.QtTextBoxM.DefaultText = "Quantité";
+            this.QtTextBoxM.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.QtTextBoxM.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.QtTextBoxM.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.QtTextBoxM.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.QtTextBoxM.FillColor = System.Drawing.SystemColors.Control;
+            this.QtTextBoxM.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.QtTextBoxM.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QtTextBoxM.ForeColor = System.Drawing.Color.Black;
+            this.QtTextBoxM.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.QtTextBoxM.Location = new System.Drawing.Point(731, 83);
+            this.QtTextBoxM.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.QtTextBoxM.Name = "QtTextBoxM";
+            this.QtTextBoxM.PasswordChar = '\0';
+            this.QtTextBoxM.PlaceholderText = "";
+            this.QtTextBoxM.SelectedText = "";
+            this.QtTextBoxM.Size = new System.Drawing.Size(109, 32);
+            this.QtTextBoxM.TabIndex = 16;
             // 
-            // guna2TextBox5
+            // QuantiteTextBoxM
             // 
-            this.guna2TextBox5.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox5.DefaultText = "";
-            this.guna2TextBox5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox5.Location = new System.Drawing.Point(731, 122);
-            this.guna2TextBox5.Name = "guna2TextBox5";
-            this.guna2TextBox5.PasswordChar = '\0';
-            this.guna2TextBox5.PlaceholderText = "";
-            this.guna2TextBox5.SelectedText = "";
-            this.guna2TextBox5.Size = new System.Drawing.Size(142, 27);
-            this.guna2TextBox5.TabIndex = 15;
+            this.QuantiteTextBoxM.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.QuantiteTextBoxM.DefaultText = "";
+            this.QuantiteTextBoxM.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.QuantiteTextBoxM.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.QuantiteTextBoxM.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.QuantiteTextBoxM.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.QuantiteTextBoxM.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.QuantiteTextBoxM.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.QuantiteTextBoxM.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.QuantiteTextBoxM.Location = new System.Drawing.Point(731, 122);
+            this.QuantiteTextBoxM.Name = "QuantiteTextBoxM";
+            this.QuantiteTextBoxM.PasswordChar = '\0';
+            this.QuantiteTextBoxM.PlaceholderText = "";
+            this.QuantiteTextBoxM.SelectedText = "";
+            this.QuantiteTextBoxM.Size = new System.Drawing.Size(142, 27);
+            this.QuantiteTextBoxM.TabIndex = 15;
             // 
-            // guna2TextBox6
+            // FabricantTextBoxM
             // 
-            this.guna2TextBox6.BorderThickness = 0;
-            this.guna2TextBox6.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox6.DefaultText = "Fabricant";
-            this.guna2TextBox6.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox6.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox6.FillColor = System.Drawing.SystemColors.Control;
-            this.guna2TextBox6.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox6.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox6.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox6.Location = new System.Drawing.Point(909, 83);
-            this.guna2TextBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox6.Name = "guna2TextBox6";
-            this.guna2TextBox6.PasswordChar = '\0';
-            this.guna2TextBox6.PlaceholderText = "";
-            this.guna2TextBox6.SelectedText = "";
-            this.guna2TextBox6.Size = new System.Drawing.Size(109, 32);
-            this.guna2TextBox6.TabIndex = 17;
+            this.FabricantTextBoxM.BorderThickness = 0;
+            this.FabricantTextBoxM.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.FabricantTextBoxM.DefaultText = "Fabricant";
+            this.FabricantTextBoxM.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.FabricantTextBoxM.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.FabricantTextBoxM.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.FabricantTextBoxM.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.FabricantTextBoxM.FillColor = System.Drawing.SystemColors.Control;
+            this.FabricantTextBoxM.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FabricantTextBoxM.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FabricantTextBoxM.ForeColor = System.Drawing.Color.Black;
+            this.FabricantTextBoxM.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FabricantTextBoxM.Location = new System.Drawing.Point(909, 83);
+            this.FabricantTextBoxM.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FabricantTextBoxM.Name = "FabricantTextBoxM";
+            this.FabricantTextBoxM.PasswordChar = '\0';
+            this.FabricantTextBoxM.PlaceholderText = "";
+            this.FabricantTextBoxM.SelectedText = "";
+            this.FabricantTextBoxM.Size = new System.Drawing.Size(109, 32);
+            this.FabricantTextBoxM.TabIndex = 17;
             // 
-            // comboBox1
+            // FabricantComboBoxM
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(921, 125);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 28);
-            this.comboBox1.TabIndex = 18;
+            this.FabricantComboBoxM.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.FabricantComboBoxM.FormattingEnabled = true;
+            this.FabricantComboBoxM.Location = new System.Drawing.Point(921, 125);
+            this.FabricantComboBoxM.Name = "FabricantComboBoxM";
+            this.FabricantComboBoxM.Size = new System.Drawing.Size(121, 28);
+            this.FabricantComboBoxM.TabIndex = 18;
             // 
-            // guna2TextBox7
+            // TextExpirationTextBoxM
             // 
-            this.guna2TextBox7.BorderThickness = 0;
-            this.guna2TextBox7.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox7.DefaultText = "Date d\'expiration";
-            this.guna2TextBox7.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox7.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox7.FillColor = System.Drawing.SystemColors.Control;
-            this.guna2TextBox7.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox7.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox7.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox7.Location = new System.Drawing.Point(627, 171);
-            this.guna2TextBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox7.Name = "guna2TextBox7";
-            this.guna2TextBox7.PasswordChar = '\0';
-            this.guna2TextBox7.PlaceholderText = "";
-            this.guna2TextBox7.SelectedText = "";
-            this.guna2TextBox7.Size = new System.Drawing.Size(182, 32);
-            this.guna2TextBox7.TabIndex = 20;
+            this.TextExpirationTextBoxM.BorderThickness = 0;
+            this.TextExpirationTextBoxM.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.TextExpirationTextBoxM.DefaultText = "Date d\'expiration";
+            this.TextExpirationTextBoxM.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.TextExpirationTextBoxM.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TextExpirationTextBoxM.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TextExpirationTextBoxM.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TextExpirationTextBoxM.FillColor = System.Drawing.SystemColors.Control;
+            this.TextExpirationTextBoxM.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TextExpirationTextBoxM.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextExpirationTextBoxM.ForeColor = System.Drawing.Color.Black;
+            this.TextExpirationTextBoxM.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TextExpirationTextBoxM.Location = new System.Drawing.Point(627, 171);
+            this.TextExpirationTextBoxM.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TextExpirationTextBoxM.Name = "TextExpirationTextBoxM";
+            this.TextExpirationTextBoxM.PasswordChar = '\0';
+            this.TextExpirationTextBoxM.PlaceholderText = "";
+            this.TextExpirationTextBoxM.SelectedText = "";
+            this.TextExpirationTextBoxM.Size = new System.Drawing.Size(182, 32);
+            this.TextExpirationTextBoxM.TabIndex = 20;
             // 
-            // dateTimePicker1
+            // DateTimePickerM
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(627, 210);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(155, 27);
-            this.dateTimePicker1.TabIndex = 21;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            this.DateTimePickerM.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.DateTimePickerM.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.DateTimePickerM.Location = new System.Drawing.Point(627, 210);
+            this.DateTimePickerM.Name = "DateTimePickerM";
+            this.DateTimePickerM.Size = new System.Drawing.Size(155, 27);
+            this.DateTimePickerM.TabIndex = 21;
             // 
-            // button1
+            // ButtonAjouterM
             // 
-            this.button1.BackColor = System.Drawing.Color.Crimson;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(350, 261);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(95, 43);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "Ajouter";
-            this.button1.UseVisualStyleBackColor = false;
+            this.ButtonAjouterM.BackColor = System.Drawing.Color.Crimson;
+            this.ButtonAjouterM.FlatAppearance.BorderSize = 0;
+            this.ButtonAjouterM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ButtonAjouterM.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonAjouterM.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ButtonAjouterM.Location = new System.Drawing.Point(350, 261);
+            this.ButtonAjouterM.Name = "ButtonAjouterM";
+            this.ButtonAjouterM.Size = new System.Drawing.Size(95, 43);
+            this.ButtonAjouterM.TabIndex = 22;
+            this.ButtonAjouterM.Text = "Ajouter";
+            this.ButtonAjouterM.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // ButtonModifierM
             // 
-            this.button2.BackColor = System.Drawing.Color.Crimson;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(483, 262);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 43);
-            this.button2.TabIndex = 23;
-            this.button2.Text = "Modifier";
-            this.button2.UseVisualStyleBackColor = false;
+            this.ButtonModifierM.BackColor = System.Drawing.Color.Crimson;
+            this.ButtonModifierM.FlatAppearance.BorderSize = 0;
+            this.ButtonModifierM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ButtonModifierM.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonModifierM.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ButtonModifierM.Location = new System.Drawing.Point(483, 262);
+            this.ButtonModifierM.Name = "ButtonModifierM";
+            this.ButtonModifierM.Size = new System.Drawing.Size(118, 43);
+            this.ButtonModifierM.TabIndex = 23;
+            this.ButtonModifierM.Text = "Modifier";
+            this.ButtonModifierM.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // ButtonSupprimerM
             // 
-            this.button3.BackColor = System.Drawing.Color.Crimson;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(643, 262);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(126, 43);
-            this.button3.TabIndex = 24;
-            this.button3.Text = "Supprimer";
-            this.button3.UseVisualStyleBackColor = false;
+            this.ButtonSupprimerM.BackColor = System.Drawing.Color.Crimson;
+            this.ButtonSupprimerM.FlatAppearance.BorderSize = 0;
+            this.ButtonSupprimerM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ButtonSupprimerM.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonSupprimerM.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ButtonSupprimerM.Location = new System.Drawing.Point(643, 262);
+            this.ButtonSupprimerM.Name = "ButtonSupprimerM";
+            this.ButtonSupprimerM.Size = new System.Drawing.Size(126, 43);
+            this.ButtonSupprimerM.TabIndex = 24;
+            this.ButtonSupprimerM.Text = "Supprimer";
+            this.ButtonSupprimerM.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // ButtonReinitialiser
             // 
-            this.button4.BackColor = System.Drawing.Color.Crimson;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(813, 261);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(139, 43);
-            this.button4.TabIndex = 25;
-            this.button4.Text = "Réinitialiser";
-            this.button4.UseVisualStyleBackColor = false;
+            this.ButtonReinitialiser.BackColor = System.Drawing.Color.Crimson;
+            this.ButtonReinitialiser.FlatAppearance.BorderSize = 0;
+            this.ButtonReinitialiser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ButtonReinitialiser.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonReinitialiser.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ButtonReinitialiser.Location = new System.Drawing.Point(813, 261);
+            this.ButtonReinitialiser.Name = "ButtonReinitialiser";
+            this.ButtonReinitialiser.Size = new System.Drawing.Size(139, 43);
+            this.ButtonReinitialiser.TabIndex = 25;
+            this.ButtonReinitialiser.Text = "Réinitialiser";
+            this.ButtonReinitialiser.UseVisualStyleBackColor = false;
             // 
-            // label5
+            // LabelStockM
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Crimson;
-            this.label5.Location = new System.Drawing.Point(608, 320);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(113, 32);
-            this.label5.TabIndex = 26;
-            this.label5.Text = "STOCK";
+            this.LabelStockM.AutoSize = true;
+            this.LabelStockM.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelStockM.ForeColor = System.Drawing.Color.Crimson;
+            this.LabelStockM.Location = new System.Drawing.Point(608, 320);
+            this.LabelStockM.Name = "LabelStockM";
+            this.LabelStockM.Size = new System.Drawing.Size(113, 32);
+            this.LabelStockM.TabIndex = 26;
+            this.LabelStockM.Text = "STOCK";
             // 
-            // guna2DataGridView1
+            // DataGridViewStockM
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.guna2DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.guna2DataGridView1.BackgroundColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.guna2DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
-            this.guna2DataGridView1.EnableHeadersVisualStyles = false;
-            this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(350, 364);
-            this.guna2DataGridView1.Name = "guna2DataGridView1";
-            this.guna2DataGridView1.RowHeadersVisible = false;
-            this.guna2DataGridView1.RowHeadersWidth = 51;
-            this.guna2DataGridView1.RowTemplate.Height = 24;
-            this.guna2DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(731, 150);
-            this.guna2DataGridView1.TabIndex = 27;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4;
-            this.guna2DataGridView1.ThemeStyle.ReadOnly = false;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 24;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.guna2DataGridView1_CellContentClick);
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            this.DataGridViewStockM.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            this.DataGridViewStockM.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.DataGridViewStockM.BackgroundColor = System.Drawing.Color.White;
+            this.DataGridViewStockM.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.DataGridViewStockM.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.DataGridViewStockM.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DataGridViewStockM.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            this.DataGridViewStockM.ColumnHeadersHeight = 4;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DataGridViewStockM.DefaultCellStyle = dataGridViewCellStyle6;
+            this.DataGridViewStockM.EnableHeadersVisualStyles = false;
+            this.DataGridViewStockM.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DataGridViewStockM.Location = new System.Drawing.Point(350, 364);
+            this.DataGridViewStockM.Name = "DataGridViewStockM";
+            this.DataGridViewStockM.RowHeadersVisible = false;
+            this.DataGridViewStockM.RowHeadersWidth = 51;
+            this.DataGridViewStockM.RowTemplate.Height = 24;
+            this.DataGridViewStockM.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.DataGridViewStockM.Size = new System.Drawing.Size(731, 150);
+            this.DataGridViewStockM.TabIndex = 27;
+            this.DataGridViewStockM.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.DataGridViewStockM.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.DataGridViewStockM.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.DataGridViewStockM.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.DataGridViewStockM.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.DataGridViewStockM.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.DataGridViewStockM.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DataGridViewStockM.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.DataGridViewStockM.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.DataGridViewStockM.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.DataGridViewStockM.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.DataGridViewStockM.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.DataGridViewStockM.ThemeStyle.HeaderStyle.Height = 4;
+            this.DataGridViewStockM.ThemeStyle.ReadOnly = false;
+            this.DataGridViewStockM.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.DataGridViewStockM.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.DataGridViewStockM.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.DataGridViewStockM.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.DataGridViewStockM.ThemeStyle.RowsStyle.Height = 24;
+            this.DataGridViewStockM.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DataGridViewStockM.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
             // Medicaments
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1130, 543);
-            this.Controls.Add(this.guna2DataGridView1);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.guna2TextBox7);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.guna2TextBox6);
-            this.Controls.Add(this.guna2TextBox4);
-            this.Controls.Add(this.guna2TextBox5);
-            this.Controls.Add(this.guna2TextBox2);
-            this.Controls.Add(this.guna2TextBox3);
-            this.Controls.Add(this.guna2TextBoxNomUtilisateur);
-            this.Controls.Add(this.guna2TextBox1);
-            this.Controls.Add(this.guna2ImageCheckBox5);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.labelPharmacie);
+            this.Controls.Add(this.DataGridViewStockM);
+            this.Controls.Add(this.LabelStockM);
+            this.Controls.Add(this.ButtonReinitialiser);
+            this.Controls.Add(this.ButtonSupprimerM);
+            this.Controls.Add(this.ButtonModifierM);
+            this.Controls.Add(this.ButtonAjouterM);
+            this.Controls.Add(this.DateTimePickerM);
+            this.Controls.Add(this.TextExpirationTextBoxM);
+            this.Controls.Add(this.FabricantComboBoxM);
+            this.Controls.Add(this.FabricantTextBoxM);
+            this.Controls.Add(this.QtTextBoxM);
+            this.Controls.Add(this.QuantiteTextBoxM);
+            this.Controls.Add(this.TextBoxLabelPrixM);
+            this.Controls.Add(this.TextBoxPrixM);
+            this.Controls.Add(this.TextBoxNomUtilisateurM);
+            this.Controls.Add(this.TextBoxMedicamentNameM);
+            this.Controls.Add(this.ImageCloseCheckBoxM);
+            this.Controls.Add(this.LableMedicamentsM);
+            this.Controls.Add(this.LabelPharmacieM);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Medicaments";
@@ -578,7 +572,7 @@ namespace PharmacieApp
             this.Text = "Medicaments";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridViewStockM)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -587,32 +581,32 @@ namespace PharmacieApp
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private Guna.UI2.WinForms.Guna2ImageCheckBox guna2ImageCheckBox1;
-        private System.Windows.Forms.Label labelPharmacie;
-        private System.Windows.Forms.Label label1;
+        private Guna.UI2.WinForms.Guna2ImageCheckBox ImageCheckBoxCompagnieM;
+        private System.Windows.Forms.Label LabelPharmacieM;
+        private System.Windows.Forms.Label LableMedicamentsM;
         private System.Windows.Forms.Label label3;
-        private Guna.UI2.WinForms.Guna2ImageCheckBox guna2ImageCheckBox2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label4;
-        private Guna.UI2.WinForms.Guna2ImageCheckBox guna2ImageCheckBox3;
-        private Guna.UI2.WinForms.Guna2ImageCheckBox guna2ImageCheckBox4;
-        private Guna.UI2.WinForms.Guna2ImageCheckBox guna2ImageCheckBox5;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBoxNomUtilisateur;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox5;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox7;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Label label5;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
+        private Guna.UI2.WinForms.Guna2ImageCheckBox ImageCheckBoxFacturesM;
+        private System.Windows.Forms.Label LabelFabricantM;
+        private System.Windows.Forms.Label LabelStatM;
+        private Guna.UI2.WinForms.Guna2ImageCheckBox ImageCheckBoxStatM;
+        private Guna.UI2.WinForms.Guna2ImageCheckBox LogoutImageCheckBoxM;
+        private Guna.UI2.WinForms.Guna2ImageCheckBox ImageCloseCheckBoxM;
+        private Guna.UI2.WinForms.Guna2ImageButton ImageButtonPharmacieM;
+        private Guna.UI2.WinForms.Guna2TextBox TextBoxNomUtilisateurM;
+        private Guna.UI2.WinForms.Guna2TextBox TextBoxMedicamentNameM;
+        private Guna.UI2.WinForms.Guna2TextBox TextBoxLabelPrixM;
+        private Guna.UI2.WinForms.Guna2TextBox TextBoxPrixM;
+        private Guna.UI2.WinForms.Guna2TextBox QtTextBoxM;
+        private Guna.UI2.WinForms.Guna2TextBox QuantiteTextBoxM;
+        private Guna.UI2.WinForms.Guna2TextBox FabricantTextBoxM;
+        private System.Windows.Forms.ComboBox FabricantComboBoxM;
+        private Guna.UI2.WinForms.Guna2TextBox TextExpirationTextBoxM;
+        private System.Windows.Forms.DateTimePicker DateTimePickerM;
+        private System.Windows.Forms.Button ButtonAjouterM;
+        private System.Windows.Forms.Button ButtonModifierM;
+        private System.Windows.Forms.Button ButtonSupprimerM;
+        private System.Windows.Forms.Button ButtonReinitialiser;
+        private System.Windows.Forms.Label LabelStockM;
+        private Guna.UI2.WinForms.Guna2DataGridView DataGridViewStockM;
     }
 }

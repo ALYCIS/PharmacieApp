@@ -16,36 +16,25 @@ namespace PharmacieApp
         {
             InitializeComponent();
         }
-
-        private void label1_Click(object sender, EventArgs e)
+        private void FenetreDeProgression_Load(object sender, EventArgs e)
         {
-
+            Timer1.Start(); // Lancement du timer dès au debut
         }
 
         int pdd = 0;
-        private void timer1_Tick(object sender, EventArgs e)
+        private void Timer1_Tick_1(object sender, EventArgs e)
         {
             pdd++;
             BarDeProgression.Value = pdd;
             labelPourcentage.Text = pdd + "%";
-            if(BarDeProgression.Value ==100)
+            if (BarDeProgression.Value == 100)
             {
                 BarDeProgression.Value = 0;
-                timer1.Stop();
+                Timer1.Stop();
                 Connection MaFenetreCon = new Connection();
                 MaFenetreCon.Show();
                 this.Hide();
             }
-        }
-
-        private void FenetreDeProgression_Load(object sender, EventArgs e)
-        {
-            timer1.Start(); // Lancement du timer dès au debut
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

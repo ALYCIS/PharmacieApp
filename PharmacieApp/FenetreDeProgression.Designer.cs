@@ -32,10 +32,10 @@ namespace PharmacieApp
             this.components = new System.ComponentModel.Container();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.BarDeProgression = new Guna.UI2.WinForms.Guna2CircleProgressBar();
+            this.labelPourcentage = new System.Windows.Forms.Label();
             this.labelPharmacie = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.labelPourcentage = new System.Windows.Forms.Label();
+            this.Timer1 = new System.Windows.Forms.Timer(this.components);
             this.BarDeProgression.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,6 +53,17 @@ namespace PharmacieApp
             this.BarDeProgression.Size = new System.Drawing.Size(192, 192);
             this.BarDeProgression.TabIndex = 0;
             // 
+            // labelPourcentage
+            // 
+            this.labelPourcentage.AutoSize = true;
+            this.labelPourcentage.Font = new System.Drawing.Font("Times New Roman", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPourcentage.ForeColor = System.Drawing.Color.White;
+            this.labelPourcentage.Location = new System.Drawing.Point(69, 75);
+            this.labelPourcentage.Name = "labelPourcentage";
+            this.labelPourcentage.Size = new System.Drawing.Size(59, 43);
+            this.labelPourcentage.TabIndex = 3;
+            this.labelPourcentage.Text = "%";
+            // 
             // labelPharmacie
             // 
             this.labelPharmacie.AutoSize = true;
@@ -63,7 +74,6 @@ namespace PharmacieApp
             this.labelPharmacie.Size = new System.Drawing.Size(314, 43);
             this.labelPharmacie.TabIndex = 1;
             this.labelPharmacie.Text = "Pharmacie CISSE";
-            this.labelPharmacie.Click += new System.EventHandler(this.label1_Click);
             // 
             // label1
             // 
@@ -76,21 +86,9 @@ namespace PharmacieApp
             this.label1.TabIndex = 2;
             this.label1.Text = "Developper par Aly";
             // 
-            // timer1
+            // Timer1
             // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // labelPourcentage
-            // 
-            this.labelPourcentage.AutoSize = true;
-            this.labelPourcentage.Font = new System.Drawing.Font("Times New Roman", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPourcentage.ForeColor = System.Drawing.Color.White;
-            this.labelPourcentage.Location = new System.Drawing.Point(69, 75);
-            this.labelPourcentage.Name = "labelPourcentage";
-            this.labelPourcentage.Size = new System.Drawing.Size(59, 43);
-            this.labelPourcentage.TabIndex = 3;
-            this.labelPourcentage.Text = "%";
-            this.labelPourcentage.Click += new System.EventHandler(this.label2_Click);
+            this.Timer1.Tick += new System.EventHandler(this.Timer1_Tick_1);
             // 
             // FenetreDeProgression
             // 
@@ -119,7 +117,7 @@ namespace PharmacieApp
         private Guna.UI2.WinForms.Guna2CircleProgressBar BarDeProgression;
         private System.Windows.Forms.Label labelPharmacie;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer Timer1;
         private System.Windows.Forms.Label labelPourcentage;
     }
 }
