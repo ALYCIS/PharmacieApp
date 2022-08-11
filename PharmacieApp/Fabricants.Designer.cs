@@ -45,7 +45,7 @@ namespace PharmacieApp
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.AdresseTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBoxNomUtilisateur = new Guna.UI2.WinForms.Guna2TextBox();
-            this.NomTextBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.NomTextBoxF = new Guna.UI2.WinForms.Guna2TextBox();
             this.FermerCheckBoxF = new Guna.UI2.WinForms.Guna2ImageCheckBox();
             this.guna2ImageCheckBox4 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -321,24 +321,24 @@ namespace PharmacieApp
             this.guna2TextBoxNomUtilisateur.Size = new System.Drawing.Size(192, 32);
             this.guna2TextBoxNomUtilisateur.TabIndex = 33;
             // 
-            // NomTextBox
+            // NomTextBoxF
             // 
-            this.NomTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.NomTextBox.DefaultText = "";
-            this.NomTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.NomTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.NomTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.NomTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.NomTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.NomTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.NomTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.NomTextBox.Location = new System.Drawing.Point(330, 122);
-            this.NomTextBox.Name = "NomTextBox";
-            this.NomTextBox.PasswordChar = '\0';
-            this.NomTextBox.PlaceholderText = "";
-            this.NomTextBox.SelectedText = "";
-            this.NomTextBox.Size = new System.Drawing.Size(134, 27);
-            this.NomTextBox.TabIndex = 32;
+            this.NomTextBoxF.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.NomTextBoxF.DefaultText = "";
+            this.NomTextBoxF.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.NomTextBoxF.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.NomTextBoxF.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.NomTextBoxF.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.NomTextBoxF.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.NomTextBoxF.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.NomTextBoxF.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.NomTextBoxF.Location = new System.Drawing.Point(330, 122);
+            this.NomTextBoxF.Name = "NomTextBoxF";
+            this.NomTextBoxF.PasswordChar = '\0';
+            this.NomTextBoxF.PlaceholderText = "";
+            this.NomTextBoxF.SelectedText = "";
+            this.NomTextBoxF.Size = new System.Drawing.Size(134, 27);
+            this.NomTextBoxF.TabIndex = 32;
             // 
             // FermerCheckBoxF
             // 
@@ -539,7 +539,7 @@ namespace PharmacieApp
             this.Controls.Add(this.guna2TextBox2);
             this.Controls.Add(this.AdresseTextBox);
             this.Controls.Add(this.guna2TextBoxNomUtilisateur);
-            this.Controls.Add(this.NomTextBox);
+            this.Controls.Add(this.NomTextBoxF);
             this.Controls.Add(this.FermerCheckBoxF);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.labelPharmacie);
@@ -570,7 +570,7 @@ namespace PharmacieApp
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
         private Guna.UI2.WinForms.Guna2TextBox AdresseTextBox;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBoxNomUtilisateur;
-        private Guna.UI2.WinForms.Guna2TextBox NomTextBox;
+        private Guna.UI2.WinForms.Guna2TextBox NomTextBoxF;
         private Guna.UI2.WinForms.Guna2ImageCheckBox FermerCheckBoxF;
         private Guna.UI2.WinForms.Guna2ImageCheckBox guna2ImageCheckBox4;
         private System.Windows.Forms.Label label4;

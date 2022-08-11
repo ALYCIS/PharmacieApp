@@ -21,7 +21,7 @@ namespace PharmacieApp
         SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\CISSE\Documents\MaPharmacie.mdf;Integrated Security=True;Connect Timeout=30");
         private void buttonAjouterF_Click(object sender, EventArgs e)
         {
-            if(NomTextBox.Text == "" || AdresseTextBox.Text =="" || DescriptionTextBoxF.Text=="" || TelTextBoxF.Text =="")
+            if(NomTextBoxF.Text == "" || AdresseTextBox.Text =="" || DescriptionTextBoxF.Text=="" || TelTextBoxF.Text =="")
             {
                 MessageBox.Show("Completez les informations s'il vous plaît!");
             }
@@ -30,7 +30,7 @@ namespace PharmacieApp
                 try
                 {
                     Con.Open();
-                    string actionReq = '\''+NomTextBox.Text+ '\''+ ',' + '\''+AdresseTextBox.Text + '\''+',' + '\''+DescriptionTextBoxF.Text+ '\''+',' + '\''+ TelTextBoxF.Text+ '\'';
+                    string actionReq = '\''+NomTextBoxF.Text+ '\''+ ',' + '\''+AdresseTextBox.Text + '\''+',' + '\''+DescriptionTextBoxF.Text+ '\''+',' + '\''+ TelTextBoxF.Text+ '\'';
                     /*string Req = "insert into FabricantTbl values('" + NomTextBox.Text +
                         "','" + AdresseTextBox.Text + "','" + DescriptionTextBoxF.Text + "','" + TelTextBoxF.Text + "')";*/
                     string Req = $"insert into FabricantTbl values({actionReq})";
@@ -57,7 +57,7 @@ namespace PharmacieApp
 
         private void buttonReinitF_Click(object s, EventArgs e)
         {
-            NomTextBox.Text = "";
+            NomTextBoxF.Text = "";
                 
             AdresseTextBox.Text= "";
             DescriptionTextBoxF.Text="";
@@ -66,7 +66,7 @@ namespace PharmacieApp
 
         private void Reinitialisation()
         {
-            NomTextBox.Clear();
+            NomTextBoxF.Clear();
             AdresseTextBox.Clear();
             DescriptionTextBoxF.Clear();
             TelTextBoxF.Clear();
