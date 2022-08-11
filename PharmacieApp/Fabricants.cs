@@ -13,12 +13,13 @@ namespace PharmacieApp
 {
     public partial class Fabricants : Form
     {
+        private SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\CISSE\Documents\MaPharmacie.mdf;Integrated Security=True;Connect Timeout=30");
+        private int  Cle = 0;
         public Fabricants()
         {
             InitializeComponent();
+            AfficherBD();
         }
-
-        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\CISSE\Documents\MaPharmacie.mdf;Integrated Security=True;Connect Timeout=30");
         private void buttonAjouterF_Click(object sender, EventArgs e)
         {
             if(NomTextBoxF.Text == "" || AdresseTextBox.Text =="" || DescriptionTextBoxF.Text=="" || TelTextBoxF.Text =="")
@@ -39,9 +40,8 @@ namespace PharmacieApp
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Fabricant Ajouté avec Succès!");
                     Con.Close();
+                    AfficherBD();
                     Reinitialisation();
-                     
-
                 }
                 catch (Exception Ex)
                 {
@@ -57,11 +57,7 @@ namespace PharmacieApp
 
         private void buttonReinitF_Click(object s, EventArgs e)
         {
-            NomTextBoxF.Text = "";
-                
-            AdresseTextBox.Text= "";
-            DescriptionTextBoxF.Text="";
-            TelTextBoxF.Text="";
+            Reinitialisation();
         }
 
         private void Reinitialisation()
@@ -70,9 +66,39 @@ namespace PharmacieApp
             AdresseTextBox.Clear();
             DescriptionTextBoxF.Clear();
             TelTextBoxF.Clear();
+            Cle = 0;
         }
 
+        private void AfficherBD()
+        {
+            Con.Open();
+            string Req = $"select * from FabricantTbl";
+            SqlDataAdapter sda = new SqlDataAdapter(Req, Con);
+            SqlCommandBuilder build = new SqlCommandBuilder(sda);
+            var ds = new DataSet();
+            sda.Fill(ds);
+            ListeFabricantDataGridViewF.DataSource = ds.Tables[0];
+            Con.Close();
+        }
         private void ListeFabricantDataGridViewF_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            NomTextBoxF.Text = ListeFabricantDataGridViewF.SelectedRows[0].Cells[1].Value.ToString();
+            AdresseTextBox.Text = ListeFabricantDataGridViewF.SelectedRows[0].Cells[2].Value.ToString();
+            DescriptionTextBoxF.Text = ListeFabricantDataGridViewF.SelectedRows[0].Cells[3].Value.ToString();
+            TelTextBoxF.Text = ListeFabricantDataGridViewF.SelectedRows[0].Cells[4].Value.ToString();
+
+            if (NomTextBoxF.Text == "")
+                Cle = 0;
+            else
+                Cle = Convert.ToInt32(ListeFabricantDataGridViewF.SelectedRows[0].Cells[0].Value.ToString());
+        }
+
+        private void buttonSupprimerF_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonModifierF_Click(object sender, EventArgs e)
         {
 
         }

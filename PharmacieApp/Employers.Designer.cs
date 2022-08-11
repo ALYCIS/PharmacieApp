@@ -38,13 +38,13 @@ namespace PharmacieApp
             this.guna2ImageCheckBox4 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
             this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
             this.label5 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.ReinitialiserbuttonE = new System.Windows.Forms.Button();
+            this.SupprimerbuttonE = new System.Windows.Forms.Button();
+            this.ModifierbuttonE = new System.Windows.Forms.Button();
+            this.AjouterbuttonE = new System.Windows.Forms.Button();
             this.guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.MotDePasseTextBoxE = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBoxNomUtilisateur = new Guna.UI2.WinForms.Guna2TextBox();
             this.NomTextBoxE = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2ImageCheckBox5 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
@@ -176,62 +176,62 @@ namespace PharmacieApp
             this.label5.TabIndex = 64;
             this.label5.Text = "Liste Des Agents";
             // 
-            // button4
+            // ReinitialiserbuttonE
             // 
-            this.button4.BackColor = System.Drawing.Color.Crimson;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(818, 260);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(139, 43);
-            this.button4.TabIndex = 63;
-            this.button4.Text = "Réinitialiser";
-            this.button4.UseVisualStyleBackColor = false;
+            this.ReinitialiserbuttonE.BackColor = System.Drawing.Color.Crimson;
+            this.ReinitialiserbuttonE.FlatAppearance.BorderSize = 0;
+            this.ReinitialiserbuttonE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ReinitialiserbuttonE.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReinitialiserbuttonE.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ReinitialiserbuttonE.Location = new System.Drawing.Point(818, 260);
+            this.ReinitialiserbuttonE.Name = "ReinitialiserbuttonE";
+            this.ReinitialiserbuttonE.Size = new System.Drawing.Size(139, 43);
+            this.ReinitialiserbuttonE.TabIndex = 63;
+            this.ReinitialiserbuttonE.Text = "Réinitialiser";
+            this.ReinitialiserbuttonE.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // SupprimerbuttonE
             // 
-            this.button3.BackColor = System.Drawing.Color.Crimson;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(648, 261);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(126, 43);
-            this.button3.TabIndex = 62;
-            this.button3.Text = "Supprimer";
-            this.button3.UseVisualStyleBackColor = false;
+            this.SupprimerbuttonE.BackColor = System.Drawing.Color.Crimson;
+            this.SupprimerbuttonE.FlatAppearance.BorderSize = 0;
+            this.SupprimerbuttonE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SupprimerbuttonE.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SupprimerbuttonE.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.SupprimerbuttonE.Location = new System.Drawing.Point(648, 261);
+            this.SupprimerbuttonE.Name = "SupprimerbuttonE";
+            this.SupprimerbuttonE.Size = new System.Drawing.Size(126, 43);
+            this.SupprimerbuttonE.TabIndex = 62;
+            this.SupprimerbuttonE.Text = "Supprimer";
+            this.SupprimerbuttonE.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // ModifierbuttonE
             // 
-            this.button2.BackColor = System.Drawing.Color.Crimson;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(488, 261);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 43);
-            this.button2.TabIndex = 61;
-            this.button2.Text = "Modifier";
-            this.button2.UseVisualStyleBackColor = false;
+            this.ModifierbuttonE.BackColor = System.Drawing.Color.Crimson;
+            this.ModifierbuttonE.FlatAppearance.BorderSize = 0;
+            this.ModifierbuttonE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ModifierbuttonE.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModifierbuttonE.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ModifierbuttonE.Location = new System.Drawing.Point(488, 261);
+            this.ModifierbuttonE.Name = "ModifierbuttonE";
+            this.ModifierbuttonE.Size = new System.Drawing.Size(118, 43);
+            this.ModifierbuttonE.TabIndex = 61;
+            this.ModifierbuttonE.Text = "Modifier";
+            this.ModifierbuttonE.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // AjouterbuttonE
             // 
-            this.button1.BackColor = System.Drawing.Color.Crimson;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(355, 260);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(95, 43);
-            this.button1.TabIndex = 60;
-            this.button1.Text = "Ajouter";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.AjouterbuttonE.BackColor = System.Drawing.Color.Crimson;
+            this.AjouterbuttonE.FlatAppearance.BorderSize = 0;
+            this.AjouterbuttonE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AjouterbuttonE.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AjouterbuttonE.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.AjouterbuttonE.Location = new System.Drawing.Point(355, 260);
+            this.AjouterbuttonE.Name = "AjouterbuttonE";
+            this.AjouterbuttonE.Size = new System.Drawing.Size(95, 43);
+            this.AjouterbuttonE.TabIndex = 60;
+            this.AjouterbuttonE.Text = "Ajouter";
+            this.AjouterbuttonE.UseVisualStyleBackColor = false;
+            this.AjouterbuttonE.Click += new System.EventHandler(this.button1_Click);
             // 
             // guna2TextBox6
             // 
@@ -279,24 +279,24 @@ namespace PharmacieApp
             this.guna2TextBox2.Size = new System.Drawing.Size(214, 32);
             this.guna2TextBox2.TabIndex = 56;
             // 
-            // guna2TextBox3
+            // MotDePasseTextBoxE
             // 
-            this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox3.DefaultText = "";
-            this.guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.Location = new System.Drawing.Point(550, 200);
-            this.guna2TextBox3.Name = "guna2TextBox3";
-            this.guna2TextBox3.PasswordChar = '\0';
-            this.guna2TextBox3.PlaceholderText = "";
-            this.guna2TextBox3.SelectedText = "";
-            this.guna2TextBox3.Size = new System.Drawing.Size(309, 44);
-            this.guna2TextBox3.TabIndex = 55;
+            this.MotDePasseTextBoxE.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.MotDePasseTextBoxE.DefaultText = "";
+            this.MotDePasseTextBoxE.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.MotDePasseTextBoxE.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.MotDePasseTextBoxE.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.MotDePasseTextBoxE.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.MotDePasseTextBoxE.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.MotDePasseTextBoxE.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.MotDePasseTextBoxE.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.MotDePasseTextBoxE.Location = new System.Drawing.Point(550, 194);
+            this.MotDePasseTextBoxE.Name = "MotDePasseTextBoxE";
+            this.MotDePasseTextBoxE.PasswordChar = '\0';
+            this.MotDePasseTextBoxE.PlaceholderText = "";
+            this.MotDePasseTextBoxE.SelectedText = "";
+            this.MotDePasseTextBoxE.Size = new System.Drawing.Size(309, 44);
+            this.MotDePasseTextBoxE.TabIndex = 55;
             // 
             // guna2TextBoxNomUtilisateur
             // 
@@ -447,7 +447,7 @@ namespace PharmacieApp
             this.guna2TextBox5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TextBox5.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox5.Location = new System.Drawing.Point(584, 168);
+            this.guna2TextBox5.Location = new System.Drawing.Point(584, 160);
             this.guna2TextBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2TextBox5.Name = "guna2TextBox5";
             this.guna2TextBox5.PasswordChar = '\0';
@@ -468,13 +468,13 @@ namespace PharmacieApp
             this.Controls.Add(this.TelTextBoxE);
             this.Controls.Add(this.guna2DataGridView1);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.ReinitialiserbuttonE);
+            this.Controls.Add(this.SupprimerbuttonE);
+            this.Controls.Add(this.ModifierbuttonE);
+            this.Controls.Add(this.AjouterbuttonE);
             this.Controls.Add(this.guna2TextBox6);
             this.Controls.Add(this.guna2TextBox2);
-            this.Controls.Add(this.guna2TextBox3);
+            this.Controls.Add(this.MotDePasseTextBoxE);
             this.Controls.Add(this.guna2TextBoxNomUtilisateur);
             this.Controls.Add(this.NomTextBoxE);
             this.Controls.Add(this.guna2ImageCheckBox5);
@@ -499,13 +499,13 @@ namespace PharmacieApp
         private Guna.UI2.WinForms.Guna2ImageCheckBox guna2ImageCheckBox4;
         private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button ReinitialiserbuttonE;
+        private System.Windows.Forms.Button SupprimerbuttonE;
+        private System.Windows.Forms.Button ModifierbuttonE;
+        private System.Windows.Forms.Button AjouterbuttonE;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
+        private Guna.UI2.WinForms.Guna2TextBox MotDePasseTextBoxE;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBoxNomUtilisateur;
         private Guna.UI2.WinForms.Guna2TextBox NomTextBoxE;
         private Guna.UI2.WinForms.Guna2ImageCheckBox guna2ImageCheckBox5;

@@ -17,8 +17,8 @@ namespace PharmacieApp
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             /*Application.Run(new FenetreDeProgression());*/
-            /*Application.Run(new Fabricants());*/
-            Application.Run(new FenetreDeProgression());
+            Application.Run(new Fabricants());
+            /* Application.Run(new FenetreDeProgression());*/
         }
     }
 }
