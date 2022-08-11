@@ -26,5 +26,12 @@ namespace PharmacieApp
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Employers E = new Employers();
+            E.Show();
+            this.Hide();
+        }
     }
 }

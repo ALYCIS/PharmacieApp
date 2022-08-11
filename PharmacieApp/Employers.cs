@@ -28,6 +28,20 @@ namespace PharmacieApp
         {
 
         }
-        
+
+        private void guna2ImageCheckBox5_CheckedChanged(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void AjouterbuttonE_MouseHover(object sender, EventArgs e)
+        {
+            AjouterbuttonE.BackColor = Color.Blue;
+        }
+
+        private void AjouterbuttonE_MouseLeave(object sender, EventArgs e)
+        {
+            AjouterbuttonE.BackColor = Color.Crimson;
+        }
     }
 }

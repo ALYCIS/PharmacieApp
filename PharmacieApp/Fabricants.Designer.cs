@@ -29,9 +29,9 @@ namespace PharmacieApp
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Fabricants));
             this.ListeFabricantDataGridViewF = new Guna.UI2.WinForms.Guna2DataGridView();
             this.label5 = new System.Windows.Forms.Label();
@@ -50,10 +50,10 @@ namespace PharmacieApp
             this.guna2ImageCheckBox4 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
             this.label4 = new System.Windows.Forms.Label();
             this.guna2ImageCheckBox3 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.guna2ImageCheckBox2 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.guna2ImageCheckBox1 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
+            this.FactureslabelF = new System.Windows.Forms.Label();
+            this.ImageFactureCheckBoxF = new Guna.UI2.WinForms.Guna2ImageCheckBox();
+            this.MedicamentslabelF = new System.Windows.Forms.Label();
+            this.ImageMedicamentCheckBoxF = new Guna.UI2.WinForms.Guna2ImageCheckBox();
             this.label1 = new System.Windows.Forms.Label();
             this.labelPharmacie = new System.Windows.Forms.Label();
             this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
@@ -65,30 +65,30 @@ namespace PharmacieApp
             // 
             // ListeFabricantDataGridViewF
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.ListeFabricantDataGridViewF.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
+            this.ListeFabricantDataGridViewF.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
             this.ListeFabricantDataGridViewF.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.ListeFabricantDataGridViewF.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ListeFabricantDataGridViewF.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ListeFabricantDataGridViewF.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.ListeFabricantDataGridViewF.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ListeFabricantDataGridViewF.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ListeFabricantDataGridViewF.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.ListeFabricantDataGridViewF.ColumnHeadersHeight = 25;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.ListeFabricantDataGridViewF.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.ListeFabricantDataGridViewF.DefaultCellStyle = dataGridViewCellStyle12;
             this.ListeFabricantDataGridViewF.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
             this.ListeFabricantDataGridViewF.EnableHeadersVisualStyles = false;
             this.ListeFabricantDataGridViewF.GridColor = System.Drawing.Color.Black;
@@ -191,6 +191,7 @@ namespace PharmacieApp
             this.buttonAjouterF.Text = "Ajouter";
             this.buttonAjouterF.UseVisualStyleBackColor = false;
             this.buttonAjouterF.Click += new System.EventHandler(this.buttonAjouterF_Click);
+            this.buttonAjouterF.MouseHover += new System.EventHandler(this.buttonAjouterF_MouseHover);
             // 
             // guna2TextBox6
             // 
@@ -398,57 +399,60 @@ namespace PharmacieApp
             this.guna2ImageCheckBox3.Size = new System.Drawing.Size(57, 62);
             this.guna2ImageCheckBox3.TabIndex = 7;
             // 
-            // label3
+            // FactureslabelF
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(128, 287);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(137, 26);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "FACTURES";
+            this.FactureslabelF.AutoSize = true;
+            this.FactureslabelF.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FactureslabelF.ForeColor = System.Drawing.Color.White;
+            this.FactureslabelF.Location = new System.Drawing.Point(128, 287);
+            this.FactureslabelF.Name = "FactureslabelF";
+            this.FactureslabelF.Size = new System.Drawing.Size(137, 26);
+            this.FactureslabelF.TabIndex = 6;
+            this.FactureslabelF.Text = "FACTURES";
+            this.FactureslabelF.Click += new System.EventHandler(this.FactureslabelF_Click);
             // 
-            // guna2ImageCheckBox2
+            // ImageFactureCheckBoxF
             // 
-            this.guna2ImageCheckBox2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ImageCheckBox2.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
-            this.guna2ImageCheckBox2.CheckedState.ImageSize = new System.Drawing.Size(150, 150);
-            this.guna2ImageCheckBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageCheckBox2.Image")));
-            this.guna2ImageCheckBox2.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageCheckBox2.ImageRotate = 0F;
-            this.guna2ImageCheckBox2.ImageSize = new System.Drawing.Size(50, 50);
-            this.guna2ImageCheckBox2.IndicateFocus = true;
-            this.guna2ImageCheckBox2.Location = new System.Drawing.Point(55, 258);
-            this.guna2ImageCheckBox2.Name = "guna2ImageCheckBox2";
-            this.guna2ImageCheckBox2.Size = new System.Drawing.Size(59, 67);
-            this.guna2ImageCheckBox2.TabIndex = 5;
+            this.ImageFactureCheckBoxF.BackColor = System.Drawing.Color.Transparent;
+            this.ImageFactureCheckBoxF.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
+            this.ImageFactureCheckBoxF.CheckedState.ImageSize = new System.Drawing.Size(150, 150);
+            this.ImageFactureCheckBoxF.Image = ((System.Drawing.Image)(resources.GetObject("ImageFactureCheckBoxF.Image")));
+            this.ImageFactureCheckBoxF.ImageOffset = new System.Drawing.Point(0, 0);
+            this.ImageFactureCheckBoxF.ImageRotate = 0F;
+            this.ImageFactureCheckBoxF.ImageSize = new System.Drawing.Size(50, 50);
+            this.ImageFactureCheckBoxF.IndicateFocus = true;
+            this.ImageFactureCheckBoxF.Location = new System.Drawing.Point(55, 258);
+            this.ImageFactureCheckBoxF.Name = "ImageFactureCheckBoxF";
+            this.ImageFactureCheckBoxF.Size = new System.Drawing.Size(59, 67);
+            this.ImageFactureCheckBoxF.TabIndex = 5;
             // 
-            // label2
+            // MedicamentslabelF
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(120, 211);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(195, 26);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "MEDICAMENTS";
+            this.MedicamentslabelF.AutoSize = true;
+            this.MedicamentslabelF.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MedicamentslabelF.ForeColor = System.Drawing.Color.White;
+            this.MedicamentslabelF.Location = new System.Drawing.Point(120, 211);
+            this.MedicamentslabelF.Name = "MedicamentslabelF";
+            this.MedicamentslabelF.Size = new System.Drawing.Size(195, 26);
+            this.MedicamentslabelF.TabIndex = 4;
+            this.MedicamentslabelF.Text = "MEDICAMENTS";
+            this.MedicamentslabelF.Click += new System.EventHandler(this.MedicamentslabelF_Click);
             // 
-            // guna2ImageCheckBox1
+            // ImageMedicamentCheckBoxF
             // 
-            this.guna2ImageCheckBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ImageCheckBox1.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
-            this.guna2ImageCheckBox1.CheckedState.ImageSize = new System.Drawing.Size(150, 150);
-            this.guna2ImageCheckBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageCheckBox1.Image")));
-            this.guna2ImageCheckBox1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageCheckBox1.ImageRotate = 0F;
-            this.guna2ImageCheckBox1.ImageSize = new System.Drawing.Size(50, 50);
-            this.guna2ImageCheckBox1.IndicateFocus = true;
-            this.guna2ImageCheckBox1.Location = new System.Drawing.Point(55, 184);
-            this.guna2ImageCheckBox1.Name = "guna2ImageCheckBox1";
-            this.guna2ImageCheckBox1.Size = new System.Drawing.Size(59, 68);
-            this.guna2ImageCheckBox1.TabIndex = 0;
+            this.ImageMedicamentCheckBoxF.BackColor = System.Drawing.Color.Transparent;
+            this.ImageMedicamentCheckBoxF.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            this.ImageMedicamentCheckBoxF.CheckedState.ImageSize = new System.Drawing.Size(150, 150);
+            this.ImageMedicamentCheckBoxF.Image = ((System.Drawing.Image)(resources.GetObject("ImageMedicamentCheckBoxF.Image")));
+            this.ImageMedicamentCheckBoxF.ImageOffset = new System.Drawing.Point(0, 0);
+            this.ImageMedicamentCheckBoxF.ImageRotate = 0F;
+            this.ImageMedicamentCheckBoxF.ImageSize = new System.Drawing.Size(50, 50);
+            this.ImageMedicamentCheckBoxF.IndicateFocus = true;
+            this.ImageMedicamentCheckBoxF.Location = new System.Drawing.Point(55, 184);
+            this.ImageMedicamentCheckBoxF.Name = "ImageMedicamentCheckBoxF";
+            this.ImageMedicamentCheckBoxF.Size = new System.Drawing.Size(59, 68);
+            this.ImageMedicamentCheckBoxF.TabIndex = 0;
+            this.ImageMedicamentCheckBoxF.CheckedChanged += new System.EventHandler(this.ImageMedicamentCheckBoxF_CheckedChanged);
             // 
             // label1
             // 
@@ -493,10 +497,10 @@ namespace PharmacieApp
             this.panel1.Controls.Add(this.guna2ImageCheckBox4);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.guna2ImageCheckBox3);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.guna2ImageCheckBox2);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.guna2ImageCheckBox1);
+            this.panel1.Controls.Add(this.FactureslabelF);
+            this.panel1.Controls.Add(this.ImageFactureCheckBoxF);
+            this.panel1.Controls.Add(this.MedicamentslabelF);
+            this.panel1.Controls.Add(this.ImageMedicamentCheckBoxF);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -576,10 +580,10 @@ namespace PharmacieApp
         private Guna.UI2.WinForms.Guna2ImageCheckBox guna2ImageCheckBox4;
         private System.Windows.Forms.Label label4;
         private Guna.UI2.WinForms.Guna2ImageCheckBox guna2ImageCheckBox3;
-        private System.Windows.Forms.Label label3;
-        private Guna.UI2.WinForms.Guna2ImageCheckBox guna2ImageCheckBox2;
-        private System.Windows.Forms.Label label2;
-        private Guna.UI2.WinForms.Guna2ImageCheckBox guna2ImageCheckBox1;
+        private System.Windows.Forms.Label FactureslabelF;
+        private Guna.UI2.WinForms.Guna2ImageCheckBox ImageFactureCheckBoxF;
+        private System.Windows.Forms.Label MedicamentslabelF;
+        private Guna.UI2.WinForms.Guna2ImageCheckBox ImageMedicamentCheckBoxF;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label labelPharmacie;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;

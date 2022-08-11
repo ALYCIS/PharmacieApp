@@ -462,7 +462,7 @@
         EB8gykBqZz3qFg4jATAwAACu4kaRjLI0gQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="guna2ImageCheckBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="ImageFactureCheckBoxF.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAOAAAADhCAMAAADmr0l2AAAABGdBTUEAALGPC/xhBQAAAelQTFRFOcnt
         ////HR0bzwoH5jMq/K91Ka/XoSQdAAAA+pNVxsbGKMbszgYDJsbsiRIM+/v78fHxGwAAOs7z9Pz+9PT0
@@ -597,7 +597,7 @@
         rkJggg==
 </value>
   </data>
-  <data name="resource.Image4" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="resource.Image1" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAMxJREFUOE9j
         GOEgbsr/I0D8gER8BKodE4AUxE/9Pyd26v8EYjBILUgPVDsmAEmCFEK5BAFI7eAzMHbKf3OgV1eFNvxn
@@ -606,7 +606,7 @@
         EB8gykBqZz3qFg4jATAwAACu4kaRjLI0gQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="guna2ImageCheckBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="ImageMedicamentCheckBoxF.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAkGBxMSEhUSExIVFRUWFRUVFRYVFRYVFRUWFRUWFhUVFRUY
         HSggGBolGxUVITEhJSkrLi4uFx80OTQtOCgtLi3/2wBDAQoKCg4NDhoQEBotJR8fLS0tLS0tLS0tLS0t

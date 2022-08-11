@@ -102,5 +102,29 @@ namespace PharmacieApp
         {
 
         }
+
+        private void MedicamentslabelF_Click(object sender, EventArgs e)
+        {
+            Medicaments Med = new Medicaments();
+            Med.Show();
+            this.Hide();
+        }
+
+        private void ImageMedicamentCheckBoxF_CheckedChanged(object sender, EventArgs e)
+        {
+            Medicaments Med = new Medicaments();
+            Med.Show();
+            this.Hide();
+        }
+
+        private void FactureslabelF_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void buttonAjouterF_MouseHover(object sender, EventArgs e)
+        {
+            buttonAjouterF.BackColor = Color.Blue;
+        }
     }
 }
